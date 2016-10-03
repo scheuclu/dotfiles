@@ -1,0 +1,1 @@
+grep -rl 'toreplace' ./ | xargs sed -i 's/toreplace/replacement/g'
