@@ -6,20 +6,9 @@
 // entirely rewritten every time you quit Gmsh if the option 
 // 'General.SaveSession' is set.
 //
-General.ExecutableFileName = "/usr/bin/gmsh";
+General.ExecutableFileName = "/usr/bin/gmsh";
 General.FltkTheme = "";
 General.OptionsFileName = ".gmsh-options";
-General.RecentFile0 = "meshgen_0p95.geo";
-General.RecentFile1 = "meshgen_0p9.geo";
-General.RecentFile2 = "meshgen.geo";
-General.RecentFile3 = "mesh_manual_partitioner.geo";
-General.RecentFile4 = "/home/lukas/Desktop/SA_Thesis/FEMAC/examples/feti/manual_partitioner/mesh_manual_partitioner.msh.part";
-General.RecentFile5 = "untitled.geo";
-General.RecentFile6 = "mesh_manual_partitioner.msh";
-General.RecentFile7 = "/home/lukas/Desktop/SA_Thesis/studies/2016-08-19_Inclusion/meshgen.msh";
-General.RecentFile8 = "patch_test.geo";
-General.RecentFile9 = "mesh_quad_checkerboard.geo";
-General.TmpFileName = ".gmsh-tmp";
 General.ClipPositionX = 650;
 General.ClipPositionY = 150;
 General.ColorScheme = 1;

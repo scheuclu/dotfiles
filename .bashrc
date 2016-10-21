@@ -116,7 +116,30 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# aliases
+
 # alias that solves Wifi Issues
 alias fixwifi='sudo /etc/init.d/network-manager restart'
 
+# program aliases
 alias gmsh='gmsh -fontsize 24'
+
+## folder navigation
+alias ..='cd ..'
+alias ...='cd ...'
+alias ....='cd ....'
+alias .....='cd .....'
+alias p='pwd'
+alias l='ls -l'
+
+## date and time
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+
+## other
+alias c='clear'
+alias path='echo -e ${PATH//:/\\n}'
+alias f='fg'
+
+
