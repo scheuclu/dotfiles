@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#Plugins
+source ~/dotfiles/bashplugins/bash-powerline.sh
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -82,6 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias cgrep='egrep -rni --include \*.C --include \*.h --include \*.cpp'
 fi
 
 # colored GCC warnings and errors
@@ -128,6 +132,7 @@ alias gmsh='gmsh -fontsize 24'
 alias ..='cd ..'
 alias ...='cd ...'
 alias ....='cd ....'
+
 alias .....='cd .....'
 alias p='pwd'
 alias l='ls -l'
@@ -141,5 +146,14 @@ alias nowdate='date +"%d-%m-%Y"'
 alias c='clear'
 alias path='echo -e ${PATH//:/\\n}'
 alias f='fg'
+
+
+## Farhat Resaerch Group specific stuff
+export INDYDIR=/home/lukas/Desktop/project/independence
+alias SDESIGN='$INDYDIR/codes/sdesign.d/Executables.d/sdesign.Linux.opt'
+alias indX='ssh -X lscheuch@independence.stanford.edu' 
+alias ind='ssh lscheuch@independence.stanford.edu'
+
+alias mountind='sshfs lscheuch@independence.stanford.edu:/home/lscheuch /home/lukas/Desktop/project/independence'
 
 
