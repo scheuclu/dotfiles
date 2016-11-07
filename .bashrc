@@ -156,4 +156,13 @@ alias ind='ssh lscheuch@independence.stanford.edu'
 
 alias mountind='sshfs lscheuch@independence.stanford.edu:/home/lscheuch /home/lukas/Desktop/project/independence'
 
-
+#aliases specifically for independence cluster
+alias gmsh2top='/home/pavery/bin/gmsh2top'
+alias partnmesh='/home/pavery/bin/partnmesh'
+alias partdmesh='/home/pavery/bin/partdmesh'
+alias sower='/home/pavery/bin/sower'
+alias xp2exo='/home/pavery/bin/xp2exo'
+alias rob='/home/pavery/bin/rob'
+alias nas2fem='/home/pavery/bin/nas2fem'
+alias cd2tet='/home/pavery/bin/cd2tet'
+alias matcher='/home/pavery/bin/matcher'
