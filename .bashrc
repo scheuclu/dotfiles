@@ -170,3 +170,5 @@ alias rob='/home/pavery/bin/rob'
 alias nas2fem='/home/pavery/bin/nas2fem'
 alias cd2tet='/home/pavery/bin/cd2tet'
 alias matcher='/home/pavery/bin/matcher'
+
+alias eclipse='/home/lscheuch/Downloads/eclipse/eclipse'
