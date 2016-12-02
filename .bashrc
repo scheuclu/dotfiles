@@ -3,7 +3,7 @@
 # for examples
 
 #Plugins
-source ~/dotfiles/bashplugins/bash-powerline.sh
+#source ~/dotfiles/bashplugins/bash-powerline.sh
 
 # If not running interactively, don't do anything
 case $- in
