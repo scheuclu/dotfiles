@@ -172,3 +172,19 @@ alias cd2tet='/home/pavery/bin/cd2tet'
 alias matcher='/home/pavery/bin/matcher'
 
 alias eclipse='/home/lscheuch/Downloads/eclipse/eclipse'
+
+alias valgrind='/home/pavery/valgrind/bin/valgrind'
+
+alias iqsub6='qsub -I -l -q sandybridge nodes=1:ppn=6'
+alias iqsub12='qsub -I -l -q sandybridge nodes=1:ppn=12'
+alias iqsub16='qsub -I -l -q sandybridge nodes=1:ppn=16'
+
+alias qstatloop='while :; do qstat -a; sleep 2s; done'
+
+
+set_title() 
+{
+  ORIG=$PS1
+  TITLE="\e]2;$*\a"
+  PS1=${ORIG}${TITLE}
+}
