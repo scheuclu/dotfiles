@@ -181,6 +181,13 @@ alias iqsub16='qsub -I -l -q sandybridge nodes=1:ppn=16'
 
 alias qstatloop='while :; do qstat -a; sleep 2s; done'
 
+# added by Anaconda3 4.4.0 installer
+export PATH="/home/scheucher/anaconda3/bin:$PATH"
+
+# mount lnm clusters
+alias deepmount='sshfs scheucher@deep:/home/scheucher /home/scheucher/deepmount'
+alias brutemount='sshfs scheucher@brute:/home/scheucher /home/scheucher/brutemount'
+alias kaisermount='sshfs scheucher@kaiser:/home/scheucher /home/scheucher/kaisermount'
 
 set_title() 
 {
